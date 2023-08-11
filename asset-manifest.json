@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Dropdown-React/static/css/main.7eb6229c.css",
+    "main.js": "/Dropdown-React/static/js/main.6ebf9f5b.js",
+    "static/media/image-1.svg": "/Dropdown-React/static/media/image-1.5c3993969dd8ec5381b962fade97bd2d.svg",
+    "static/media/image-hero-desktop.png": "/Dropdown-React/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
+    "static/media/Elianto-Regular.ttf": "/Dropdown-React/static/media/Elianto-Regular.8b88075e5f2ab4f4d6c3.ttf",
+    "static/media/image-hero-mobile.png": "/Dropdown-React/static/media/image-hero-mobile.adefc8b1bbed2ca80470.png",
+    "static/media/Helios Regular.ttf": "/Dropdown-React/static/media/Helios Regular.bd526d334a327f549bf4.ttf",
+    "static/media/Elianto-Regular.otf": "/Dropdown-React/static/media/Elianto-Regular.b2a163b884fad7a9731b.otf",
+    "static/media/client-databiz.svg": "/Dropdown-React/static/media/client-databiz.d1e7955f847e089183caf61eb54feb51.svg",
+    "static/media/logo.svg": "/Dropdown-React/static/media/logo.1c174ccea84ec59ff8801662c788919d.svg",
+    "static/media/client-maker.svg": "/Dropdown-React/static/media/client-maker.3859368b1ba7e579d814353870c9edb0.svg",
+    "static/media/client-meet.svg": "/Dropdown-React/static/media/client-meet.2d6ffbad4108ea24377c66fe7655736e.svg",
+    "static/media/client-audiophile.svg": "/Dropdown-React/static/media/client-audiophile.8c670cdffe9fb124c848d53dcbee7913.svg",
+    "index.html": "/Dropdown-React/index.html",
+    "static/media/icon-reminders.svg": "/Dropdown-React/static/media/icon-reminders.d573f5028c4469edf76a0b57065af566.svg",
+    "static/media/icon-planning.svg": "/Dropdown-React/static/media/icon-planning.7264cc64a81fa348da1d23defa87d2b5.svg",
+    "static/media/icon-calendar.svg": "/Dropdown-React/static/media/icon-calendar.238c231afbc7d43b81c625ceea0d1b37.svg",
+    "static/media/icon-todo.svg": "/Dropdown-React/static/media/icon-todo.84eeba8f3b9a1811c1ea3d7420dcfd98.svg",
+    "static/media/icon-close-menu.svg": "/Dropdown-React/static/media/icon-close-menu.3f33fd68b142340b7eb8c6887f92ee0c.svg",
+    "static/media/icon-menu.svg": "/Dropdown-React/static/media/icon-menu.863803c904916606b7a1998b3c5736aa.svg",
+    "static/media/icon-arrow-down.svg": "/Dropdown-React/static/media/icon-arrow-down.bebf05132571af33611ede9cdfdbed0f.svg",
+    "main.7eb6229c.css.map": "/Dropdown-React/static/css/main.7eb6229c.css.map",
+    "main.6ebf9f5b.js.map": "/Dropdown-React/static/js/main.6ebf9f5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7eb6229c.css",
+    "static/js/main.6ebf9f5b.js"
+  ]
+}

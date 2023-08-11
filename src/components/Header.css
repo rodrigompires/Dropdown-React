@@ -1,0 +1,378 @@
+header {
+    padding: 1.3rem .9rem 0 .95rem;  
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.hbMenuImg {
+    cursor: pointer;
+}
+
+
+.navMenu {
+    background-color: var(--black);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: none;
+    flex-direction: row-reverse;
+    animation: showMenu .5s ease;   
+  }
+  
+  .navMenu.show {
+    display: flex;
+    z-index: 1;
+  }
+  
+  
+  .subMenu {
+    background-color: var(--almost_white);
+    height: 100%;
+    width: 13.3rem;
+  }
+
+.iconClose {
+    margin-left: 11.55rem;
+    margin-top: 1.1rem;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.listMenu {
+    list-style: none;
+    padding: 1.79rem 1rem .1rem 1.35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;   
+    color: var(--medium_gray);
+    font-size: 1rem;
+}
+
+
+.subListFeatures {
+    opacity: 0;
+    transition: all .8s ease;
+    transform: translateY(-8%);
+    pointer-events: none;
+    max-height: 0px;
+    padding: 0 1rem .1rem 1.35rem;   
+}
+
+.subListFeatures.show {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+    max-height: 200px;
+}
+
+.itemListFeatures {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    font-size: 1rem;
+    color: var(--medium_gray);
+    padding-top: 1.5rem;
+}
+
+.itemListFeatures:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .1);
+    color: var(--almost_black);
+ }
+
+.iconsFeatures {
+    width: 1rem;
+}
+
+
+.iconArrow {
+    margin-left: .7rem;
+}
+
+
+.iconArrowFeatures.show {
+    transform: rotate(180deg);
+}
+
+
+.iconArrowCompany.show { 
+    transform: rotate(180deg);
+  
+}
+
+
+.subListCompany {
+    padding: 0 1rem .1rem 1.35rem;
+    opacity: 0;
+    transition: all .7s ease;
+    transform: translateY(-8%);
+    pointer-events: none;
+    max-height: 0px;
+}
+
+.subListCompany.show {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+    max-height: 200px;
+}
+
+.itemListCompany {
+    font-size: 1rem;
+    color: var(--medium_gray);
+    list-style: none;
+    padding-top: 1.5rem;  
+}
+
+.itemListCompany:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .1);
+    color: var(--almost_black);
+}
+
+
+
+
+
+
+
+
+
+.iconArrowTheme.show {
+    transform: rotate(180deg);
+}
+
+
+
+.subListTheme {
+    padding: 0 1rem .1rem 1.35rem;
+    opacity: 0;
+    transition: all .7s ease;
+    transform: translateY(-8%);
+    pointer-events: none;
+    max-height: 0px;
+}
+
+.subListTheme.show {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+    max-height: 200px;
+}
+
+.itemListTheme {
+    font-size: 1rem;
+    color: var(--medium_gray);
+    list-style: none;
+    padding-top: 1.5rem;
+}
+
+.itemListTheme:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .1);
+    color: var(--almost_black);
+}
+
+
+
+
+
+
+
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.buttonDefalt {
+    text-decoration: none;
+    text-align: center;
+    color: var(--medium_gray);
+    font-size: .9rem;
+    padding: .61rem 0;
+    width: 10.8rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.buttonRegister {
+    border: 2px solid var(--medium_gray);
+    margin-top: .4rem;
+}
+
+
+@keyframes showMenu {
+    from {
+        opacity: 0;
+        transform: translate(100%);
+
+    }
+
+    to {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+/* MEDIA */
+
+@media screen and (min-width:1201px) {
+    header {
+        padding: .8rem .9rem 0 .95rem;
+        width: 92.6%;  
+      }
+    
+      .header {
+        padding-left: 1.4rem;  
+      }
+    
+      .logo {
+        margin-top: .8rem;
+      }
+    
+      .hbMenu {
+        display: none;
+      }
+    
+      .navMenu {
+        display: block;
+        position: unset;
+        height: unset;
+        animation: unset;
+        min-width: 100%;
+        padding-left: 3.4rem;
+        background-color: var(--almost_white);
+      }
+    
+      .subMenu {
+        min-width: 100%;
+        height: unset;
+        padding: 0;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    
+      .iconClose {
+        display: none;
+      }
+    
+      .listMenu {
+        flex-direction: row;
+        padding: unset;
+        gap: 2rem;
+        margin: unset;
+      }
+    
+      .itemListMenu {
+        position: relative;
+      }
+    
+      .itemListMenu:hover {
+        cursor: pointer;
+        color: black;
+      }
+    
+      .iconArrow {
+        margin-left: .2rem;
+      }
+    
+      .features {
+        max-width: 6rem;
+      }
+    
+      .subListFeatures {
+        background-color: white;
+        box-shadow: 0px 7px 29px 0px rgba(20, 20, 20, .1);
+        position: absolute;
+        border-radius: 10px;
+        padding: .8rem;
+        top: 2rem;
+        right: .3rem;
+      }
+    
+    .itemListFeatures {
+      padding: .45rem;
+      font-size: .8rem;
+    }
+    
+    .iconsFeatures {
+      width: .8rem;
+    }
+    
+    .subListCompany {
+      background-color: white;
+      box-shadow: 0px 7px 29px 0px rgba(20, 20, 20, .1);
+      position: absolute;
+      border-radius: 10px;
+      padding: .9rem;
+      top: 2rem;
+      left: -.1rem;
+    }
+    
+    .itemListCompany {
+      padding: .45rem;
+      font-size: .8rem;
+    }
+    
+    .subListTheme {
+      background-color: white;
+      box-shadow: 0px 7px 29px 0px rgba(20, 20, 20, .1);
+      position: absolute;
+      border-radius: 10px;
+      padding: .9rem;
+      top: 2rem;
+      left: -.1rem;
+    }
+    
+    .itemListTheme {
+      padding: .45rem;
+      font-size: .8rem;
+    }
+    
+    .btns {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: unset;
+      gap: unset;
+    }
+    
+    .buttonDefalt {
+      font-size: .78rem;
+      padding: .76rem 0;
+      width: 5.8rem; 
+    }
+    
+    .buttonDefalt:hover {
+      color: var(--almost_black);
+      font-weight: 700;
+    }
+    
+    .buttonRegister {
+      margin-top: unset; 
+    }
+    
+    .buttonRegister:hover {
+      border: 2px solid var(--almost_black);
+    }
+    
+    .bkgImg {
+      display: none;
+    }
+}

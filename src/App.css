@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@100;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --almost_white: hsl(0, 0%, 98%);
+  --medium_gray: hsl(0, 0%, 41%);
+  --almost_black: hsl(0, 0%, 8%);
+  --black: hsla(0, 0%, 0%, .69);
+  --main_fontfamily: 'Epilogue', sans-serif;
+  --main_fontsize: 18px;
+  --transition: all .6s ease;
+
+  transition: var(--transition);
+}
+
+body {
+  font-size: var(--main_fontsize);
+  font-family: var(--main_fontfamily);
+  min-width: 375px;
+  min-height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: var(--almost_white);
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* MEDIAS */
+
+@media screen and (min-width:300px) and (max-width:900px) {
+  .bkgImg img {
+    max-width: 85%;
+  }
+  .bkgDesktop {
+    display: none;
+}
+
+.containerModal {
+  overflow-y: scroll
+}
+
+
+}
+
+@media screen and (min-width:901px) and (max-width:1200px) {
+  .bkgImg img {
+    max-width: 85%;
+  }
+  .bkgDesktop {
+    display: none;
+}
+
+}
+
+@media screen and (min-width:1201px) {
+
+  .container {
+    padding-top: .1rem;
+    transition: all .5s ease;
+    overflow: hidden;
+  }
+  
+}
+
+
+
+
+/* TEMA ELEGANTE */
+/* __________________________________________________________________________________________________________________ */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100;200;500;700&display=swap');
+
+body.elegant {
+
+  background: linear-gradient(360deg, #e2d7c4, #f9f3ed, #898174);
+
+  .main h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+  }
+
+  .main p {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+  }
+
+  .buttonLearn {
+    background: linear-gradient(90deg, #e2d7c4, #898174);
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .buttonLearn:hover {
+    border: 1px solid #e2d7c4;
+  }
+
+  .logoDatabiz {
+    filter: opacity(1) brightness(50%);
+  }
+
+  .logoAudiophile {
+      filter: opacity(1) brightness(50%);
+    }
+
+  .logoMeet {
+      filter: opacity(1) brightness(50%);
+  }
+
+  .logoMaker {
+    filter: opacity(1) brightness(50%);
+  }
+
+  .hbMenu {
+    filter: brightness(1000%);
+  }
+
+  .listMenu {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    color: #f9f3ed;
+  }
+
+  .navMenu {
+    background-color: transparent;
+  }
+
+  .subMenu {
+    background-color: transparent;
+  }
+
+  
+
+  @media screen and (min-width:300px) and (max-width:900px) {
+    .navMenu {
+      background-color: var(--black);
+    }
+
+    .subMenu {
+      background-color: #898174;
+    }
+  }
+
+  .subListFeatures {
+    background: linear-gradient(#e2d7c4, #f9f3ed);
+    border-radius: 10px;
+  }
+
+  .itemListFeatures {
+    font-family: 'Josefin Sans', serif;
+    color: #898174;
+  }
+
+  .subListCompany {
+    background: linear-gradient(#e2d7c4, #f9f3ed);
+    border-radius: 10px;
+  }
+
+  .itemListCompany {
+    font-family: 'Josefin Sans', serif;
+    color: #898174;
+  }
+
+  .subListTheme {
+    background: linear-gradient(#e2d7c4, #f9f3ed);
+    border-radius: 10px;
+  }
+
+  .itemListTheme {
+    font-family: 'Josefin Sans', serif;
+    color: #898174;
+  }
+
+  .buttonDefalt {
+    font-family: 'Josefin Slab', sans-serif;
+    font-size: 1rem;
+    color: #f9f3ed;
+  }
+
+  .buttonRegister {
+    border: 1px solid #e2d7c4;
+  }
+
+  .iconArrow {
+    filter: brightness(1000%);
+  }
+
+  footer {
+    background: #e7dece;
+  }
+
+  @media screen and (min-width:1201px) {
+
+    .listMenu {
+      font-family: 'Josefin Slab', serif;
+      font-weight: 700;
+      color: #f9f3ed;
+      /* text-transform: uppercase; */
+    }
+
+    .navMenu {
+      background-color: transparent !important;
+    }
+
+    .subMenu {
+      background-color: transparent !important;
+    }
+
+    .subListFeatures {
+      background: linear-gradient(#e2d7c4, #f9f3ed);
+    }
+
+    .itemListFeatures {
+      font-family: 'Josefin Sans', serif;
+      color: #898174;
+    }
+
+    .subListCompany {
+      background: linear-gradient(#e2d7c4, #f9f3ed);
+    }
+
+    .itemListCompany {
+      font-family: 'Josefin Sans', serif;
+      color: #898174;
+
+
+    }
+
+    .subListTheme {
+      background: linear-gradient(#e2d7c4, #f9f3ed);
+    }
+
+    .itemListTheme {
+      font-family: 'Josefin Sans', serif;
+      color: #898174;
+
+    }
+
+    .buttonDefalt {
+      font-family: 'Josefin Slab', sans-serif;
+      font-size: 1rem;
+      color: #f9f3ed;
+    }
+
+    .buttonRegister {
+      border: 1px solid #898174;
+    }           
+  }
+}
+
+
+
+
+/* TEMA FUTURISTA */
+/* __________________________________________________________________________________________________________________ */
+
+@font-face {
+    font-family: 'Futuristic';
+    src: url(../src/assets/fonts/Elianto-Regular.otf) format('opentype'), url(../src/assets/fonts/Elianto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: url(../src/assets/fonts/Helios\ Regular.ttf) format('truetype');
+}
+
+
+
+body.futuristic {
+  background: linear-gradient(45deg, #000002, #285160, #000002, #285160, #002363);
+
+  .main h1 {
+    font-family: 'Futuristic', sans-serif;
+    font-weight: 500;
+    color: #e1e1eb;
+  }
+
+  .main p {
+    font-family: 'Futuristic', serif;
+    font-weight: 100;
+    color: #9bbbc0;
+  }
+
+  .buttonLearn {
+    background: linear-gradient(90deg, #000002, #285160);
+    font-family: 'Helios', sans-serif;
+    text-transform: uppercase;
+  }
+
+  .buttonLearn:hover {
+    border: 1px solid #00bfc6;
+    color: #00bfc6;
+  }
+
+  .logo {
+    filter: brightness(1000%);
+  }
+
+  .hbMenu {
+    filter: brightness(1000%);
+  }
+
+  .listMenu {
+    font-family: 'Helios', serif;
+    font-weight: 400;
+    color: #9bbbc0;
+    color: white;
+  }
+
+  .navMenu {
+    background-color: transparent;
+  }
+
+  .subMenu {
+    background-color: transparent;
+  }
+
+  @media screen and (min-width:300px) and (max-width:900px) {
+    .navMenu {
+      background-color: var(--black);
+    }
+
+    .subMenu {
+      background-color: #285160;
+    }
+  }
+
+  .itemListMenu:hover {
+    color: #00bfc6;
+
+  }
+
+  .subListFeatures {
+    background: linear-gradient(#000002, #285160);
+    border-radius: 10px;
+  }
+
+  .itemListFeatures {
+    font-family: 'Futuristic', serif;
+    color: white;
+  }
+
+  .subListCompany {
+    background: linear-gradient(#000002, #285160);
+    border-radius: 10px;
+  }
+
+  .itemListCompany {
+    font-family: 'Futuristic', serif;
+    color: white;
+  }
+
+  .subListTheme {
+    background: linear-gradient(#000002, #285160);
+    border-radius: 10px;
+  }
+
+  .itemListTheme {
+    font-family: 'Futuristic', serif;
+    color: white;
+
+  }
+
+  .buttonDefalt {
+    font-family: 'Futuristic', serif;
+    font-size: 1rem;
+    color: #f9f3ed;
+  }
+
+  .buttonRegister {
+    border: 1px solid #e2d7c4;
+  }
+
+  .iconArrow {
+    filter: brightness(1000%);
+  }
+
+  footer {
+    background: transparent;
+  }
+
+  .listMenu {
+    font-family: 'Futuristic', serif;
+    font-weight: 400;
+    color: #9bbbc0;
+    text-transform: uppercase;
+  }
+
+  .listMenu:hover {
+    color: #00bfc6;
+  }
+
+  .navMenu {
+    background-color: transparent;
+  }
+
+  .subMenu {
+    background-color: transparent;
+  }
+
+  .subListFeatures {
+    background: linear-gradient(#000002, #285160);
+    border-radius: 10px;
+  }
+
+  .itemListFeatures {
+    font-family: 'Futuristic', serif;
+    color: white;
+  }
+
+  .subListCompany {
+    background: linear-gradient(#000002, #285160);
+    border-radius: 10px;
+  }
+
+  .itemListCompany {
+    font-family: 'Futuristic', serif;
+    color: white;
+  }
+
+  .subListTheme {
+    background: linear-gradient(#000002, #285160);
+    border-radius: 10px;
+  }
+
+  .itemListTheme {
+    font-family: 'Futuristic', serif;
+    color: white;
+  }
+
+  .buttonDefalt {
+    font-family: 'Futuristic', serif;
+    font-size: 1rem;
+    color: #f9f3ed;
+  }
+
+  .buttonRegister {
+    border: 1px solid #e2d7c4;
+  }
+
+  .iconArrow {
+    filter: brightness(1000%);
+  }
+
+  footer {
+   background: transparent;
+  }
+
+  .authorText {
+    color: white;
+  }
+
+
+  @media screen and (min-width:1201px) {
+    .listMenu {
+      font-family: 'Futuristic', serif;
+      font-weight: 100;
+      color: #f9f3ed;
+      /* text-transform: uppercase; */
+    }
+
+    .listMenu:hover {
+      color: #00bfc6;
+    }
+
+    .navMenu {
+      background-color: transparent;
+    }
+
+    .subMenu {
+      background-color: transparent;
+    }
+
+    .subListFeatures {
+      background: linear-gradient(#000002, #285160);
+    }
+
+    .itemListFeatures {
+      font-family: 'Futuristic', serif;
+      color: #9bbbc0;
+    }
+
+    .subListCompany {
+      background: linear-gradient(#000002, #285160);
+
+    }
+
+    .itemListCompany {
+      font-family: 'Futuristic', serif;
+      color: #9bbbc0;
+    }
+
+    .subListTheme {
+      background: linear-gradient(#000002, #285160);
+    }
+
+    .itemListTheme {
+      font-family: 'Futuristic', serif;
+      color: #9bbbc0;
+    }
+
+    .buttonDefalt {
+      font-family: 'Futuristic', sans-serif;
+      font-size: 1rem;
+      color: #9bbbc0;  
+    }
+
+    .buttonDefalt:hover {
+      color: #00bfc6;
+    }
+    
+
+    .buttonRegister {
+      border: 1px solid #9bbbc0;
+   }
+
+   .authorText {
+    color: white;
+  }
+  }
+}
+  
+
+
+  

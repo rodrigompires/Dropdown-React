@@ -1,0 +1,168 @@
+main {
+    text-align: center;
+    margin-top: 1.4rem;  
+}
+
+
+
+.bkgImg img {
+   max-width: 100%;   
+}
+
+
+.mainInfos {
+    margin-top: 2.3rem;
+}
+
+.mainTitle h1{
+    font-size: 1.96rem;
+    font-weight: 700;
+    color: var(--almost_black);
+}
+
+.mainText {
+    margin-top: 1.1rem;
+    padding: 0 1.05rem 2.2rem 1.05rem;  
+}
+
+.mainText p {
+    color: var(--medium_gray);
+    font-size: .9rem;
+    line-height: 1.45rem;  
+}
+
+.buttonLearn {
+    background-color: var(--almost_black);
+    text-decoration: none;
+    color: var(--almost_white);
+    border-radius: 15px;
+    font-size: .89rem;
+    padding: 1rem 1.25rem 1rem 1.25rem;
+    cursor: pointer;
+}
+
+.clients {
+    margin-top: 3.3rem;
+}
+
+.clientsLogos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .8rem;
+}
+
+.logoDatabiz {
+    width: 4.7rem;
+    filter: opacity(0.4) drop-shadow(0 0 0 #726cee);
+}
+
+.logoAudiophile {
+    width: 3rem;
+    filter: opacity(0.4) drop-shadow(0 0 0 #e3ce3b);
+
+}
+
+.logoMeet {
+    width: 3.7rem;
+    filter: opacity(0.4) drop-shadow(0 0 0 #4bb1da);          
+}
+
+.logoMaker {
+    width: 3.2rem;
+    filter: opacity(0.4) drop-shadow(0 0 0 #c9316b);
+}
+
+
+
+/* MEDIA */
+
+@media screen and (min-width:1201px) {
+    main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 3.3rem .9rem 0 1.34rem;
+      }
+    
+      .bkgDesktop {
+        display: flex;
+        width: 29.5rem;
+        overflow: hidden;
+        object-fit: cover;
+        margin-right: 6.2rem;  
+      }
+    
+      .bkgDesktop img {
+        min-width: 100%;
+      }
+    
+      .mainInfos {
+        padding: unset;
+        margin-top: 6rem;
+        text-align: start;
+        max-width: 65.4%;
+        margin-left: 7.88rem;
+      }
+    
+    
+      .mainTitle {
+        margin-bottom: 2.9rem;
+      }
+    
+      .mainTitle h1 {
+        font-size: 5.2rem;
+      }
+    
+      .mainText {
+        padding: unset;
+        width: 24rem;    
+      }
+    
+      .mainText p {
+        font-size: 1rem;
+        line-height: 1.6rem;
+        margin-bottom: 4rem;
+      }
+      
+    
+    .buttonLearn {
+        font-size: .95rem;
+        padding: 1rem 1.8rem 1rem 1.8rem;  
+    }
+    
+    .buttonLearn:hover {
+        color: var(--almost_black);
+        font-weight: 700;
+        background-color: var(--almost_white);
+        border: 1px solid var(--almost_black);
+    }
+
+    .clients {
+        margin-top: 7rem;
+        width: 28.8rem;
+        margin-left: 7.85rem;
+    }
+
+    .clientsLogos {
+        justify-content: unset;
+        padding: unset;
+        gap: 3rem;
+    }
+
+    .logoDatabiz {
+        width: 6.3rem;
+    }
+
+    .logoAudiophile {
+        width: 4rem;
+    }
+
+    .logoMeet {
+        width: 4.7rem;
+    }
+
+    .logoMaker {
+        width: 4.8rem;
+    }
+}
